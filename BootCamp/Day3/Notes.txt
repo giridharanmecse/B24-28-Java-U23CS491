@@ -1,1 +1,14 @@
 AB : 2,19,21,26,27,39,58,
+
+Language Basics
+1) Keywords
+2) Variables
+3) Data Types 
+4) Wrapper Clasess
+
+
+Variables
+1) Instance Variable ->Object
+2) Class Varaible -> Static / Shared Memory
+3) Local Variable -> blocks
+4) Parameters
