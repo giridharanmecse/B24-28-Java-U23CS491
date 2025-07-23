@@ -1,0 +1,15 @@
+Day 5 Task - 12 to 1
+1) 
+i)Create a music Player which Contains two classes Songs 
+and playlist
+ii)create song class with two parametes string title 
+and int length
+iii)create playlist class which contain name of the playlist 
+and no of sons in the playlist
+iv) create appropriate constructors, getters and setters 
+and override the tostring methood
+ V) From main class first create N number of songs 
+ and disply the same
+ vi) then create n number of playlistand fill theire details
+ vii) no of songs in the playlist should no exceed the to no of songs
+
