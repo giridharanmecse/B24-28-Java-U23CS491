@@ -1,0 +1,3 @@
+Welcome to Java programming
+Hai from File
+This is a Sample File

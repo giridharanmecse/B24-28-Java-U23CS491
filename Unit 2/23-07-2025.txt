@@ -1,0 +1,18 @@
+AB : 17,27,53,
+OD : 5,47,52,56,
+
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
+import java.io.nio;
+
+path
+File
+Files
+
+Path p = new Path("C:\\programming File\\");
+File file= new File("C:\\SampleFolder\\FileName.txt");
+FileInputStream 
+
+
+Write a Java Program to Read a file and Give Linecount, 
+wordcount and charcount in the file
