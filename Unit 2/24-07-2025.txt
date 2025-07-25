@@ -1,0 +1,51 @@
+AB : 27,62
+
+
+File Writer
+Buffered Writer
+Print Writer
+
+
+Project Phase 1
+1) INdividual Project
+2) idea
+3) console based appllication
+4) File based INput and Output
+
+
+LMS
+course
+users
+modules
+Question
+
+
+OOPS Concepts
+1) Class
+Vehicle(id,brandname,no of door)
+Student(rollno,name,dept)
+Employee(id,name,Role)
+College(id,name)
+2) Object
+int num1 = 10;
+Vehicle mycar = new Vehicle(1,"Mercedez",4)
+Vehicle clasical = new vehicle(1980,"Carriage",2);
+Student s1 = new Student(15,"Amar","CSE")
+Student s2 = new Student(16,"Fahath","CSE")
+Student s3 = new Student(60,"Al Salam","CSE")
+Student s4 = new Student(17,"Deepika","CSE")
+Employee e1 = new Employee(1,"Barath","HR")
+Employee e2 = new Employee(2,"Gopi","Manager")
+College c1 = new College(5,"SECE");
+College c2 = new College(1,"KCT");
+College c3 = new College(2,"SRM");
+3) Constructors
+
+4) Abstraction
+5) Encapsulation
+6) Inheritance
+7) Polymorphism
+9) Association
+10) Aggregation
+11) Composition
+
