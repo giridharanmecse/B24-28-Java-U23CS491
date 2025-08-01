@@ -1,0 +1,34 @@
+Attendance Management System.
+1) Track The Attendacnce
+2) Students Attendance
+3) Faculty Going to Track This
+4) Daily Faculty will Take the Attendacnce amd Record It
+5) Present / Absent / On-Duty / Leave / Late
+6) Report Absentees Count
+7) On duty Count 
+8) Present count
+
+Actors  ->Student , Faculty , Admin
+student ->View His/Her Attendacnce
+Faculty -> Mark The Attendacnce
+Admin -> Assign Faculty and Student
+
+User Class
+    id -> Integer -> Primary /Unique / Idexing
+    name -> String
+    Roll No ->String
+    user_Type ->id Foreign Key
+
+user_Type Class
+    id Integer ->Primary Key
+    type String ->Student/Faculty/Admin
+
+Attendance Class
+    id
+    Student Id -> user id (Student)
+    Faulty Id -> user id (Faculty)
+    Status -> AttendaceType_id
+
+Attendace type
+    id -> Integer
+    Type -> (P/AB/OD/L/LA)
