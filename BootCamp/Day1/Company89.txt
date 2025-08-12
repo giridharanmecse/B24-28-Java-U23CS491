@@ -1,0 +1,229 @@
+1) Max-Min Set Bits
+Bruce has an integer array A of size N. He must perform the undermentioned steps sequentially:
+1.Update the elements of array A with the square of each element.
+2.Find the binary equivalent of each element of the updated array.
+3.Find the number of set bits for all the elements in the updated array.
+4.Find two numbers (in decimal form) X and Y with the maximum and minimum number of set bits, respectively.
+5.Multiply the numbers (in decimal form) X and Y.
+Your task is to help Bruce find and return an integer value representing the nearest number which is a power of 2 that is greater than or equal to the product of X and Y.
+Note:
+•The number of set bits means the number of T's in a binary value
+•If two or more numbers have the same number of set bits, then the number lower decimal value is considered.
+
+
+2) Provide a sample snippet of Pseudocode which involves the satisfying condition For the given sentence, if the the entered character of the sentence is a vowel, individual Vowel count should be calculated. Else just count in same consonant count.
+
+
+3) Alice is a computer science student who loves to play games. One day, her friend Bob challenges her to solve a game in which she is given an array A of size N which she needs to divide the array into one or more contiguous intervals. For each interval created, she needs to calculate the bitwise OR of all the elements in that interval and then determine the bitwise XOR of all the values she gets by doing the OR of the respective intervals.
+
+Your task is to help Alice to find and return an integer value representing the minimum possible XOR value that she can achieve.
+
+Input Specification:
+input1: An integer N, representing the size of array A
+input2: An integer array A.
+
+Output Specification:
+Return an integer value representing the minimum possible XOR value that she can achieve.
+
+Example 1:
+input1 : 3
+input2: (1,5,7)
+
+Output: 2
+
+
+Explanation:
+
+Given the input array (1,5.7) of size 3, we can find the minimum XOR value in the following way
+•We can divide this array into two intervals: (1.5) and (7).
+•The OR of the first interval is 5 and the OR of the second interval is 7.
+•The XOR of 5 and 7 is 2, which is the minimum possible value.
+Therefore, the minimum possible XOR value that can be obtained is 2. Hence, 2 is returned as the output.
+
+Example 2:
+input1: 3
+input2: (7.7.7)
+
+Output: 0
+
+Explanation:
+Given the input array (7,7.7) of size 3, we can find the minimum XOR value in the
+following way:
+•We can divide the array into two intervals: (7) and (7,7)
+•The OR of the first interval is 7 and the OR of the second interval is also 7.
+•The XOR of 7 and 7 is 0, which is the minimum possible value.
+
+The minimum possible XOR value would be 0, no matter how the array is divided.
+Hence, 0 is returned as the output.
+
+4) Input Specification:
+•input1: An integer value N.
+•input2: An integer value A.
+Output Specification:
+Return an integer value representing the sum of all possible values of M that satisfy the given condition.
+
+Example 1:
+•input1: 85
+•input2: 4
+Output: 58
+
+Explanation:
+Here in this example, N = 85 and A = 4, and we can find the sum of all possible values of M such that:
+N = A * M + D
+in the following way:
+•The first possible value of M is 17, and we need to choose D = 17 as it is a divisor of M that will satisfy the equation.
+•The second possible value of M is 20, and we need to choose D = 5 as it is a divisor of M that will satisfy the equation.
+•The third possible value of M is 21, and we need to choose D = 1 as it is a divisor of M that will satisfy the equation.
+To get the final answer, we add all the values of M that we have found, which gives:
+17 + 20 + 21 = 58.
+Hence, 58 is returned as the output.
+Your friend has given you two integers N and A, and has challenged you to solve the equation:
+N = (A * M) + D
+To do so, you need to select an integer M and find a positive divisor of M, which will be denoted as D, such that N can be expressed as the product of A and M plus D.
+Your task is to find and return an integer value representing the sum of all possible values of M that satisfy the given condition.
+
+Note:
+•N, M, A, and D are always positive values.
+•There is always at least one value of M that satisfies the given condition.
+
+
+
+1) Consider a program that prints fibonacci series. The program takes the number of elements in the series as input from the user. Which of the following pseudocodes will print the series as required?
+
+FUNCTION Print Fibonacci (Integer NumTerms)
+	Integer Term1, Term2, Next Term
+	SET Term1=0
+	SET Term2=1
+	FOR Term =Term1 TO NumTerms STEP 1 DO
+		IF Term<=1 THEN
+			SET NextTerm= Term
+		ELSE
+			Next Term =Term1+Term2
+			Term = Term2
+			Term2=NextTerm
+		END IF
+		Print Next Term
+	END FOR
+END FUNCTION
+
+PROGRAM START
+Integer NumTerms
+GET Numterms
+CALL PrintFibonacci (NumTerms)
+
+2) What will be the output of the following pseudocode?
+1	Integer j
+2	Integer arr[4]= {3, 4, 4, 1}
+3	arr[1]=(4+6)+arr[0] -> {2,13,5,1}
+4	if((arr[2]+arr[3]+arr[1])<(arr[3]+arr[1]+arr[2])){
+5	arr[3]=(10+4)&arr[1]
+6 Else
+7	arr[0]=arr[3]+arr[3]
+8 End if
+9 arr[2]=(arr[0]+2)^arr[3] -> 4^1  100^001
+10 Print arr[0]+arr[2]
+Select the correct option from the given choices.
+1. 7
+2. 12
+3. 2
+4. 16
+
+3) What will be the output of the following pseudocode?
+1	Integer p,q,г
+2	Set p - 6 q - 4 r = 5
+3	r = (r + 3) + q
+4	if((r+q)> (q - r) ||1>p)
+5	if ((p + q ^ r) < (q + r + p))
+6	r = (q + r) + q
+7	End if
+8	r = (p + p) + r
+9 End if
+10 p = (6 + 11) + q
+11 Print p+q+r
+Select the correct option from the given choices. 
+1.70
+2.63
+3.49
+4.57
+
+4) What will be the output of the following pseudocode?
+1 Integer j
+2 Integer arr[4]= [2, 1, 0, 4)
+3 arr[1]=(arr[3]+2)+arr[3]
+4 if((arr[0]&arr[3])<(arr[1]-arr[0]))
+5	arr[2]=(9+9)&arr[3]
+6 Else
+7	arr[0]= (2+12)+arr[3]
+8 End if
+9 arr[3]=arr[1]+arr[3]
+10 Print arr[0]+arr[2]
+Select the correct option from the given choices. 
+1.-12
+2.7
+3.2
+4.13
+
+5) What will be the output of the following pseudocode?
+1 Integer j
+2 Integer arr[4]= [2, 3, 4, 1)
+3 if(arr[0]<carr[2])
+4	arr[0]= (arr[3]+arr[0])^arr[1] 
+5 End if
+6 if((arr[2]+arr[3])>(arr[3]+arr[2]))
+7	arr[2]=(7+2)^arr[1]
+8 Else
+9	arr[0]=5+arr[1]
+10 End if
+11 Print arr[1]+arr[2]+arr[3]
+Select the correct option from the given choices.
+1. 10
+2 . 6
+3. 18
+4. 8
+
+
+6) What will be the output of the following pseudocode for a=4, b=2, c=10?
+
+1.Integer funn(Integer a, Integer b, Integer c) 2.if((b+c+a)<(5-a-b))
+3.	if((b+c+a)<(8-a-b))
+4.	c=b+b
+5.	Else
+6.	c=(5+9)+b
+7.	End if
+8.	c=c+b
+ 
+8.End if
+11. c=(b+7)+a
+12.return a+b+c
+
+Select the correct option from the given choices
+1.38
+2.27
+3.0
+4.19
+
+9) Assume you are an employee of a firm, and your boss has given you a code snippet. Find out the correct functionality of the code.
+import java.util.HashMap;
+
+public class Main {
+public static void main(String[] args) {
+// Create a HashMap object called month
+HashMap<String, int> months = new HashMap<String, int>();
+// Add keys and values (month, order) 
+month.put("January", 1);
+month.put("February", 2);
+month.put("March", 3);
+month.put("April", 4); 
+System.out.println(month);
+}
+}
+Select an option:
+1.{January=1, February=2, March=3, April=4} 
+2.{January=1, February=2, March=3, April=4} 
+3.{March=3,April=4,January=1,February=21} 
+4.{March=3,January=1,April=4,February=2} 
+
+
+      
+	
+

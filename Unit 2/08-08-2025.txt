@@ -1,0 +1,44 @@
+AB : 31,34,55
+OD : 12
+
+Static & Fin al Keywords
+Inheritance
+Polymorphism
+
+1) Static Keyword
+    a) Variable
+    b) Method
+    c) class
+    d) Block
+
+
+static {
+
+}
+
+
+class Student{
+    Integer id;
+    String name;
+}
+class Main{
+    PSVM(String args[])
+    {
+        Student s1 = new Student();
+    }
+}
+
+
+2) Final Keyword
+    1) class -> it cannot be extended
+    2) Method -> cant be overideed
+    3) Varaible -> cannot be reinialised
+
+class welcome{
+    final Integer num1 =10;
+    public void method1(){
+        num1 = 20;
+    }
+}
+
+abstract and final cannot go along

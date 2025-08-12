@@ -1,0 +1,5 @@
+1) Create a simple calculator using switch case 
+and operators
+
+2) create a class which accepts matrix and check
+weather it is a upper triangle matrix?
