@@ -1,0 +1,119 @@
+AB : 25,
+OD : 5,
+
+
+Inheritance :
+Types :
+1) Single
+2) mulitiple
+3) Multileve
+4) Hirarical
+5) hybrid
+
+
+class superclass{
+    method1()
+    method2()
+}
+
+class subclass1 extend superclass{
+    method3()
+    method4()
+}
+
+class subclass2 extends superclass {
+    method3()
+    method4()
+}
+class subclass3 extends superclass {
+    method3()
+    method4()
+}
+
+upcasting is possible 
+user u1 = new student()
+user u2 = new faculty()
+user u3 = new HOD();
+
+downcasting is not possible but it can be acheived
+Student s1 = new user();
+
+
+multiple inheritance:
+class A{
+    add();
+}
+
+class B{
+    add();
+}
+
+class C extend A,B{
+
+}
+
+class Main{
+    PSVM(){
+        C c1 = new C();
+        c1.add();
+    }
+}
+
+
+Polymorphism:
+Overloading and Overriding
+copiletime and run time
+
+
+class numbers{
+    int add(int a,int b){
+        return a+b;
+    }
+
+    double add(double a,double b){
+        return a+b;
+    }
+    string add(string a,string b){
+        return a+b;
+    }
+}
+
+class numbers1 extend numbers{
+    int add(int a,int b){
+        return a+b+10;
+    }
+
+    double add(double a,double b){
+        return a+b+20.5;
+    }
+    string add(string a,string b){
+        return a+" "+b;
+    }
+}
+
+class Main{
+    PSVM(){
+        Numbers n1 ;
+        SOP("1)number,2)number1");
+        if(c == 1){
+            n1 = new NUmber();
+        } else {
+            n1 = new Number1();
+        }
+        n1.add(10,10);
+        n1.add(10.5,10.5);
+        n1.add("Welcome","Hello");
+        //n1 = new NUmbers1();
+        //n1.add(10,10);
+        //n1.add(10.5,10.5);
+        //n1.add("Welcome","Hello");
+    }
+}
+
+n1.add(10l,10l);
+
+
+     byte
+     short
+char integer   float
+     long      double 
