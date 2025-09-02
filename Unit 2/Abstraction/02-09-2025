@@ -1,0 +1,49 @@
+AB : 9,10,34,54,67,
+Define an abstract class `Shape` with an abstract method `area()`. Create two subclasses `Circle` and `Rectangle` that implement the `area()` method. Write a program to calculate the area of a circle and a rectangle using these classes.
+
+**Question:**  
+Define the properties and behaviors of the abstract class `Shape`. Then, describe the specific properties and behaviors of its subclasses `Circle` and `Rectangle`.
+
+---
+
+### Abstract Class: `Shape`
+
+**Properties:**
+- May include common attributes for all shapes, such as:
+    - `color` (optional)
+    - `borderWidth` (optional)
+
+**Behaviors:**
+- Abstract method: `area()`
+    - Purpose: To compute and return the area of the shape.
+- (Optional) Other common methods, such as `display()` or `perimeter()`, can be defined as abstract or concrete.
+
+---
+
+### Subclass: `Circle`
+
+**Properties:**
+- `radius`: The distance from the center to the edge of the circle.
+
+**Behaviors:**
+- Implements the `area()` method:
+    - Formula: `area = π * radius^2`
+- (Optional) Methods to get/set the radius.
+
+---
+
+### Subclass: `Rectangle`
+
+**Properties:**
+- `length`: The longer side of the rectangle.
+- `width`: The shorter side of the rectangle.
+
+**Behaviors:**
+- Implements the `area()` method:
+    - Formula: `area = length * width`
+- (Optional) Methods to get/set length and width.
+
+---
+
+**Summary:**  
+The abstract class `Shape` defines a template for geometric shapes, requiring all subclasses to provide their own implementation of the `area()` method. `Circle` and `Rectangle` extend `Shape` by adding specific properties and implementing the area calculation according to their geometric formulas.
