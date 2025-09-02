@@ -1,0 +1,9 @@
+AB : 16,35,41,64,l2,l7
+OD : 12,50,53,56,68,
+
+
+Inheitance
+polymorphism
+Abstraction
+Encapsulation
+packages
