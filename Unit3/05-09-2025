@@ -1,0 +1,62 @@
+Unit 3
+1) String 
+2) Collections
+3) Date and Time
+4) java New Features
+
+String 
+1) String is not a Data type
+2) String is Character Sequence / Char Array
+
+string a = "Hello";
+string b = "Hello";
+
+a = 100x -> "Hello"
+b = 200x -> "Hello"
+
+String pool -> Set -> will never allow duplicates
+String str1 = "Hello" -> 100x
+String str2 = "Hello" -> 100x
+
+
+mutable & immutable
+
+Integer,Float,Character -> Wrapper Classe -> Final Classe
+Integer a = 10 -> a = 20
+Integr b = 10
+
+String is also immutable
+String a = "hello" - 250x
+String b = "hello" - 250x
+hello welcome ->new Memore 
+a = a+" Welcome"; - > "hello"+ " welcome" -> hello welcome
+
+a = hello welcome
+
+TO MAKE STRING AS MUTTABLE we have 2 classes
+1) StringBuffer ->1.1 -> Tread Safe -> Take more time to precess
+2) StringBuilder ->1.4 -> not Thread Safe -> Time Efficient
+
+
+Define a String 
+1) Literal -> String Literal
+    "Hello"
+2) String str = new String("Hello");
+ + -> will always act as a concatenation in java
+ == ->  always check for references not the value
+ equals() -> check both the values are same.
+ s1.equals(s2) -> True / False
+
+ Substring(start index,end index)
+ start index -> is always inclusuive
+ end index -> is not inclusuive
+String methods -> reverse is not present;
+
+if we want to use reverse then my string should be mutable
+
+2 ways to make my string mutable
+1) StringBuffer
+2) StringBuilder
+
+all the objects create as mutable will be stored onl;y in heap
+its memory willnot be created in string pool
