@@ -1,0 +1,14 @@
+1) Collections 
+    1) Why ? 
+    a) Array - memory allocation is static
+    b) I cannot able to strore different data type in to single unit
+    int [] arr = new int[size]
+    Oauth2 -> login in with different wen sites creditials
+    collections is reterived from CPP STL 
+        -> Vector (collect different objects in to a single unit)
+        -> HashTable ()->Key & Value Pair 
+    
+colection frame work contains 3 things
+1) Interfaces / Class Tamplates
+2) Implementation / implemented Classes ( DS + CF)
+3) Algorithms
