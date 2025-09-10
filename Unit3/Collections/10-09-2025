@@ -1,0 +1,8 @@
+Map -> Key and Value Pair
+Key -> Unique / not alow dupklicates
+Value -> List properties / No restrictions
+
+Implemented Classes
+1) HashMap -> no ordering
+2) LinkedHashMap -> Insertion ordering
+3) TreeMap -> Ascending Order
