@@ -1,0 +1,9 @@
+gridharan.r@sece.ac.in
+memo -> update your rollno
+
+Abstraction -> Showing Only Relavant Datas / Hiding the implementations
+1) Abstract Class
+	1) Both Implemented and Non implemented Classes
+	2) 90 % abstract
+	3) Java Developers rectrict the creation of object for abstract Class
+2) Interface
