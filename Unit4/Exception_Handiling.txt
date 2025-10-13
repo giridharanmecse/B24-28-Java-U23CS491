@@ -1,0 +1,26 @@
+Excetion
+1) What is Exception -> is it error?
+    Unexpected values or Unexpected Variable can cause this Exceptino
+2) Exception handiling Mechanism
+try - Catch
+Finally block
+Throws and throw.
+
+Error -> power failure / Storage full / 
+Exceptino -> Compile time exception & Run time Exception
+            Checked Exceptions && Unchecked Exceptions
+IOError -> 
+SQL Exception
+File Not found Exception
+Class not found exception
+
+Checked Exception can be handled By JVM
+
+Array index Out of bount Exception
+Arithmetic exception
+Format Mismatch Exception
+Unchecked exception / Runtime Exception
+
+
+Exception Propogation -> calling my Previous Methods to Handel my exception
+this will happen only for Runtime exceptin / Unchecked Exception
