@@ -24,3 +24,14 @@ Unchecked exception / Runtime Exception
 
 Exception Propogation -> calling my Previous Methods to Handel my exception
 this will happen only for Runtime exceptin / Unchecked Exception
+
+
+difference between throw & Throws
+
+Throw -> Mainly used to intiate a new exception
+
+throws -> which is used to tell my JVM that this method may throw an exception
+
+Custom Exception ?
+-> Exception
+Extend my class with excepti
