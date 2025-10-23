@@ -1,0 +1,15 @@
+AB  : 1,13,19,38,41,45,46,53,60,62,gokul
+OD : 2,15,25,47,52,56,
+
+unit 4 : Exception & Threads
+process Vs Threads
+Threads Life Cycle :
+State 
+new -> crating a Threads
+Runnable -> start()
+Running -> run()
+Treminated
+Between runnable and Running 
+    1) Blocked
+    2) Wait
+    3) Timed Wait
